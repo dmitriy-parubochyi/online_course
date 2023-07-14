@@ -191,6 +191,7 @@ header {
 .categories {
     background: var(--color-bg1);
     height: 29rem;
+    margin-bottom: 300px;
 
 }
 
@@ -459,6 +460,9 @@ footer ul li a:hover {
 /* media queries for tablets */
 
 @media screen and (max-width: 1024px) {
+    .categories{
+            margin-bottom: 0;
+    }
     .container {
         width: var(--container-width-md);
     }
